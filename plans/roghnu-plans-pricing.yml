@@ -1,0 +1,56 @@
+generated: '2026-10-21'
+method: searched
+source: https://www.roghnu.com/pricing
+name: Roghnu pricing
+audience: business-product
+pricing_basis: flat-platform
+published: true
+plans:
+  - name: Sage Intacct to Data Warehouse
+    price_text: "$185/month"
+    price: 185
+    currency: USD
+    billing_period: month
+    description: "Connect Sage Intacct to Data Warehouse"
+  - name: Sage Intacct Attachments to Data Warehouse
+    price_text: "$120/month"
+    price: 120
+    currency: USD
+    billing_period: month
+    description: "Connect Sage Intacct Attachments to Data Warehouse"
+  - name: Salesforce to Data Warehouse
+    price_text: "$185/month"
+    price: 185
+    currency: USD
+    billing_period: month
+    description: "Connect Salesforce to Data Warehouse"
+  - name: Stripe to Data Warehouse
+    price_text: "$185/month"
+    price: 185
+    currency: USD
+    billing_period: month
+    description: "Connect Stripe to Data Warehouse"
+  - name: Standard App to Data Warehouse
+    price_text: "$185/month"
+    price: 185
+    currency: USD
+    billing_period: month
+    description: "Connect Standard App to Data Warehouse"
+  - name: Custom App to Data Warehouse
+    price_text: "$185/month"
+    price: 185
+    currency: USD
+    billing_period: month
+    description: "Connect Custom App to Data Warehouse"
+  - name: Power BI Analytics
+    price_text: "$500/month"
+    price: 500
+    currency: USD
+    billing_period: month
+    description: "Power BI Analytics integration"
+  - name: Anomaly Analytics
+    price_text: "$50/month"
+    price: 50
+    currency: USD
+    billing_period: month
+    description: "Anomaly Analytics integration"

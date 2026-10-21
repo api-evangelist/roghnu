@@ -1,23 +1,93 @@
 aid: roghnu
+
 name: Roghnu
-description: 'Roghnu is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: http://static1.squarespace.com/static/662a88140606f60074fec974/t/6a0b7d572290bd3a6e71730b/1779137879487/roghnu-logo.png?format=1500w
+
+description: 'Roghnu provides a data portal that gives finance and operations leaders a complete, reliable view of their business data without delays or manual effort. It offers advanced reporting, analytics, and integrations for Sage Intacct and other enterprise systems, enabling automation of data and business operations.'
+
 url: https://raw.githubusercontent.com/api-evangelist/roghnu/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- Data
+- Finance
+- Automation
+- Analytics
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: AgentSkill
+  url: skills/_index.yml
+- type: Plans
+  url: plans/roghnu-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/roghnu-llms.txt
+- type: Hosts
+  url: hosts/roghnu-hosts.yml
+- type: Vendors
+  url: vendors/roghnu-vendors.yml
+- type: TermsOfService
+  url: https://www.roghnu.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.roghnu.com/privacy-policy
+- type: Login
+  url: https://apps.roghnu.com/login/okta
+- type: GettingStarted
+  url: https://www.roghnu.com/get-started
+- type: GitHubOrganization
+  url: https://github.com/Roghnu
+- type: DomainSecurity
+  url: security/roghnu-domain-security.yml
 - type: Website
-  url: https://roghnu.com/
+  url: https://www.roghnu.com/
+- type: Documentation
+  url: https://www.roghnu.com/about
+- type: APIReference
+  url: https://www.roghnu.com/faq
+- type: Pricing
+  url: https://www.roghnu.com/pricing
+- type: Blog
+  url: https://www.roghnu.com/blog
+- type: Support
+  url: https://www.roghnu.com/contact-us
+
+apis: []
+
+x-coverage:
+  state: gated
+  reason: partner-login
+  method: derived
+  generated: '2026-10-21'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company serves an API surface but requires credentials before any description of it can be read
+  evidence:
+  - url: https://support.roghnu.com/mcp
+    status: 401
+  - url: https://roghnu.com/
+    status: 200
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

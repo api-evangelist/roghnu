@@ -1,0 +1,16 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/roghnu/integrations
+- https://n8n.io/integrations/roghnu/
+- https://composio.dev/toolkits/roghnu
+- https://monid.ai/tools/roghnu
+checked:
+- https://composio.dev/toolkits/roghnu
+- https://monid.ai/tools/roghnu
+- https://n8n.io/integrations/roghnu/
+- https://zapier.com/apps/roghnu/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
